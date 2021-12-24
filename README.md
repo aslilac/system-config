@@ -1,6 +1,6 @@
 # dotfiles
 
-Everyone has them! It's just part of nature!
+Some system files for me and no one else
 
 ```
 ln -sf .dotfile ~/.dotfile

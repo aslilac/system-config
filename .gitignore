@@ -1,16 +1,10 @@
-# macOS
 .DS_Store
-
-# Dependencies
-.yarn
-node_modules
-
-# Build artifacts
-.cache
-.parcel-cache
-dist
-public
-target
-
-# Logs
+.env*
+.vscode/
+build/
+dist/
+node_modules/
+target/
 *.log
+*.pyc
+*.tsbuildinfo

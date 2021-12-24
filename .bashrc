@@ -1,6 +1,6 @@
+# I used this for a DigitalOcean VPS I had at one point. Might not need it anymore.
+
 # Used for non-primary UNIX-like environments
-
-
 
 # If not running interactively, don't do anything
 case $- in
