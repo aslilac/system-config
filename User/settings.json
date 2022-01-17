@@ -1,0 +1,124 @@
+{
+	"settingsSync.ignoredExtensions": [
+		"denoland.vscode-deno",
+		"ms-vscode-remote.remote-wsl",
+		"vsciot-vscode.vscode-arduino"
+	],
+
+	"debug.console.wordWrap": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.autoClosingBrackets": "never",
+	"editor.autoClosingQuotes": "never",
+	"editor.autoSurround": "never",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.fontFamily": "'JetBrains Mono', 'Cascadia Code PL', 'Cascadia Code', 'Victor Mono', 'M+ 1m', Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 13,
+	"editor.fontWeight": "500",
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": false,
+	"editor.guides.bracketPairs": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.linkedEditing": true,
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "trailing",
+	"editor.rulers": [90],
+	"editor.wordWrap": "off",
+	"explorer.openEditors.sortOrder": "alphabetical",
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.statusBar.enabled": false,
+	"javascript.autoClosingTags": false,
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"npm.packageManager": "auto",
+	"prettier.endOfLine": "lf",
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"python.defaultInterpreterPath": "/usr/bin/python3",
+	"python.formatting.provider": "black",
+	"python.languageServer": "Pylance",
+	"scm.defaultViewMode": "tree",
+	"terminal.integrated.scrollback": 100000,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.lineHeight": 1.2,
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+			"args": ["-NoLogo"]
+		}
+	},
+	"terminal.integrated.tabs.enabled": true,
+	"typescript.autoClosingTags": false,
+	"typescript.updateImportsOnFileMove.enabled": "never",
+	"window.newWindowDimensions": "maximized",
+	"workbench.colorTheme": "GitHub Dark",
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.labelFormat": "medium",
+	"workbench.editor.tabCloseButton": "left",
+	"workbench.editor.untitled.hint": "hidden",
+	"workbench.fontAliasing": "antialiased",
+	"workbench.preferredDarkColorTheme": "[mckayla] Lit Dark",
+	"workbench.preferredLightColorTheme": "[mckayla] Lit",
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 12,
+
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+
+	"[css][graphql][html][javascript][javascriptreact][json][jsonc][less][markdown][scss][typescript][typescriptreact][yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+
+	"[kotlin]": {
+		"editor.defaultFormatter": "fwcd.kotlin"
+	},
+
+	"[markdown]": {
+		"editor.wordWrap": "off",
+		"editor.quickSuggestions": false
+	},
+
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma",
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+
+	"[rust]": {
+		"editor.defaultFormatter": "matklad.rust-analyzer",
+		"editor.insertSpaces": true
+	},
+
+	"[terraform]": {
+		"editor.defaultFormatter": "hashicorp.terraform",
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+
+	"[yaml]": {
+		"editor.insertSpaces": true
+	}
+}
